@@ -2,9 +2,16 @@ MovieMate – Full Stack Movie Discovery Platform
 Overview
 
 MovieMate is a full stack movie discovery web application developed using React, Spring Boot, MySQL, and TMDB API.
-The application allows users to explore trending movies, search movies, browse movies by language, save favorites, and manage a personal watchlist.
 
-The project uses JWT Authentication and Protected Routes to provide secure user-specific features.
+The application allows users to:
+
+Explore trending movies
+Browse movies by language
+Search movies
+Save favorite movies
+Manage a personal watchlist
+
+The project uses JWT Authentication and Protected Routes to provide secure user-specific functionality.
 
 MovieMate follows a complete full stack architecture using:
 
@@ -25,20 +32,20 @@ Movie Features
 View Trending Movies
 Browse Movies by Language
 Search Movies
-Pagination using Load More
+Load More Pagination
 Loading States
 Empty States
 Responsive Movie Grid
 Favorites System
-Add Movies to Favorites
-Remove Movies from Favorites
-Prevent Duplicate Favorites
-User-specific Favorites
+Add movies to favorites
+Remove movies from favorites
+Prevent duplicate favorites
+User-specific favorite movies
 Watchlist System
-Add Movies to Watchlist
-Remove Movies from Watchlist
-Prevent Duplicate Watchlist Movies
-User-specific Watchlist
+Add movies to watchlist
+Remove movies from watchlist
+Prevent duplicate watchlist movies
+User-specific watchlist management
 UI/UX Features
 Responsive Design
 Modern Navbar
@@ -49,18 +56,22 @@ Clean Movie Card Layout
 Search Page UI
 Login & Signup UI
 Tech Stack
-Technology	Purpose
-React.js	Frontend UI
-Vite	React Build Tool
-Spring Boot	Backend Framework
-Spring Security	Authentication & Authorization
-JWT	Secure Authentication
-MySQL	Database
-Spring Data JPA	Database Operations
-Hibernate	ORM Framework
-Axios	API Requests
-TMDB API	Movie Data
-Git & GitHub	Version Control
+Frontend
+React.js
+Vite
+Axios
+React Router DOM
+CSS
+Backend
+Spring Boot
+Spring Security
+JWT Authentication
+Spring Data JPA
+Hibernate
+Database
+MySQL
+External API
+TMDB API
 Architecture
 Frontend (React + Vite)
         ↓
@@ -127,7 +138,26 @@ Method	Endpoint	Description
 POST	/api/watchlist	Add Watchlist Movie
 GET	/api/watchlist	Get Watchlist Movies
 DELETE	/api/watchlist/{id}	Remove Watchlist Movie
+Screenshots
+Home Page
 
+(Add Screenshot Here)
+
+Search Page
+
+(Add Screenshot Here)
+
+Favorites Page
+
+(Add Screenshot Here)
+
+Watchlist Page
+
+(Add Screenshot Here)
+
+Login Page
+
+(Add Screenshot Here)
 
 How to Run the Project
 1. Clone Repository
@@ -177,9 +207,9 @@ Refresh Token Authentication
 Movie Trailer Support
 Dark Mode
 Recommendation System
-Movie Details Page
 Infinite Scrolling
-Deployment on Render & Vercel
+Movie Details Page
+Deployment using Render & Vercel
 Learning Outcomes
 
 This project helped in understanding:
@@ -195,6 +225,3 @@ MySQL Relationships
 Responsive UI Design
 Git & GitHub Workflow
 Full Stack Project Architecture
-Author
-
-Deepika Peddi
