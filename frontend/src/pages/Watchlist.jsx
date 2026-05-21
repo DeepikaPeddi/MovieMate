@@ -86,13 +86,15 @@ function Watchlist() {
 
                 <MovieCard
 
-                  key={movie.id}
+                  key={movie.id || movie.watchlistId}
 
                   movie={movie}
 
                   showFavoriteButton={false}
 
                   onRemove={handleRemove}
+
+                  pageType="watchlist"
 
                 />
 

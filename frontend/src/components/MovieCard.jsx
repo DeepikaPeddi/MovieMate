@@ -12,7 +12,8 @@ import { toast } from "react-toastify";
 function MovieCard({
   movie,
   showFavoriteButton = true,
-  onRemove
+  onRemove,
+  pageType
 }) {
 
   // FAVORITE
@@ -193,10 +194,18 @@ function MovieCard({
       }
 
       <button
-        onClick={handleWatchlist}
+        onClick={
+          pageType === "watchlist"
+            ? handleFavorite
+            : handleWatchlist
+        }
       >
 
-        Watchlist
+        {
+          pageType === "watchlist"
+            ? "Favorite"
+            : "Watchlist"
+        }
 
       </button>
 

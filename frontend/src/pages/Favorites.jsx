@@ -81,6 +81,7 @@ async function handleRemove(id) {
                   movie={movie}
                   showFavoriteButton={false}
                   onRemove={handleRemove}
+                  pageType="favorites"
                 />
 
               ))
