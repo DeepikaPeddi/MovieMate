@@ -1,0 +1,25 @@
+.favorites-page {
+
+  padding: 20px;
+}
+
+.favorites-page h1 {
+
+  margin-bottom: 30px;
+}
+
+.movie-grid {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 20px;
+}
+
+.empty-text {
+
+  color: gray;
+
+  font-size: 18px;
+}
